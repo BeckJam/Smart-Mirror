@@ -1,0 +1,375 @@
+/*!
+ *  Weather Icons Beta 1
+ *  Weather themed icons for Bootstrap
+ *  ------------------------------------------------------------------------------
+  * Maintained at http://erikflowers.github.io/weather-icons
+ *  http://twitter.com/Erik_UX
+ *
+ *  License
+ *  ------------------------------------------------------------------------------
+ *  - Fpmt licensed under SIL OFL 1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - CSS and LESS are licensed under MIT License -
+ *    http://opensource.org/licenses/mit-license.html
+ *  - Documentation licensed under CC BY 3.0 -
+ *    http://creativecommons.org/licenses/by/3.0/
+ *  - Inspired by and works great as a companion with Font Aweosme
+ *    "Font Awesome by Dave Gandy - http://fontawesome.io"
+ *
+ *  Weather Icons Bootstrap Package Author - Erik Flowers - erik@helloerik.com
+ *  Weather Icons gives full credit for inspiration to Font Awesome and makes no 
+ *  claim to invention, intellectual property, or ownership of methodology. 
+ * 
+ *  Support Open Source!
+ *
+ *  ------------------------------------------------------------------------------
+ *  Email: erik@helloerik.com
+ *  Twitter: http://twitter.com/Erik_UX
+ */
+@font-face {
+  font-family: 'weather';
+  src: url('../font/weathericons-regular-webfont.eot');
+  src: url('../font/weathericons-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../font/weathericons-regular-webfont.woff') format('woff'), url('../font/weathericons-regular-webfont.ttf') format('truetype'), url('../font/weathericons-regular-webfont.svg#weathericons-regular-webfontRg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="wi-"],
+[class*=" wi-"] {
+  font-family: weather;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  *margin-right: .3em;
+}
+[class^="wi-"]:before,
+[class*=" wi-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+.wi-day-cloudy-gusts:before {
+  content: "\f000";
+}
+.wi-day-cloudy-windy:before {
+  content: "\f001";
+}
+.wi-day-cloudy:before {
+  content: "\f002";
+}
+.wi-day-fog:before {
+  content: "\f003";
+}
+.wi-day-hail:before {
+  content: "\f004";
+  color: red;
+}
+.wi-day-lightning:before {
+  content: "\f005";
+  color: red;
+}
+.wi-day-rain-mix:before {
+  content: "\f006";
+  color: #66FF00;
+}
+.wi-day-rain-wind:before {
+  content: "\f007";
+  color: #66FF00;
+}
+.wi-day-rain:before {
+  content: "\f008";
+  color: #66FF00;
+}
+.wi-day-showers:before {
+  content: "\f009";
+  color: #66FF00;
+}
+.wi-day-snow:before {
+  content: "\f00a";
+  color: blue
+}
+.wi-day-sprinkle:before {
+  content: "\f00b";
+  color: #66FF00;
+}
+.wi-day-sunny-overcast:before {
+  content: "\f00c";
+  color: yellow;
+}
+.wi-day-sunny:before {
+  content: "\f00d";
+  color: yellow;
+}
+.wi-day-storm-showers:before {
+  content: "\f00e";
+  color: #66FF00;
+}
+.wi-day-thunderstorm:before {
+  content: "\f010";
+  color: red;
+}
+.wi-cloudy-gusts:before {
+  content: "\f011";
+}
+.wi-cloudy-windy:before {
+  content: "\f012";
+}
+.wi-cloudy:before {
+  content: "\f013";
+}
+.wi-fog:before {
+  content: "\f014";
+}
+.wi-hail:before {
+  content: "\f015";
+  color: red;
+}
+.wi-lightning:before {
+  content: "\f016";
+  color: red;
+}
+.wi-rain-mix:before {
+  content: "\f017";
+  color: #66FF00;
+}
+.wi-rain-wind:before {
+  content: "\f018";
+  color: #66FF00;
+}
+.wi-rain:before {
+  content: "\f019";
+  color: #66FF00;
+}
+.wi-showers:before {
+  content: "\f01a";
+  color: #66FF00;
+}
+.wi-snow:before {
+  content: "\f01b";
+  color: blue;
+}
+.wi-sprinkle:before {
+  content: "\f01c";
+  color: #66FF00;
+}
+.wi-storm-showers:before {
+  content: "\f01d";
+  color: #66FF00;
+}
+.wi-thunderstorm:before {
+  content: "\f01e";
+  color: red;
+}
+.wi-windy:before {
+  content: "\f021";
+  color: yellow;
+}
+.wi-night-alt-cloudy-gusts:before {
+  content: "\f022";
+}
+.wi-night-alt-cloudy-windy:before {
+  content: "\f023";
+}
+.wi-night-alt-hail:before {
+  content: "\f024";
+  color: red;
+}
+.wi-night-alt-lightning:before {
+  content: "\f025";
+  color: red;
+}
+.wi-night-alt-rain-mix:before {
+  content: "\f026";
+  color: #66FF00;
+}
+.wi-night-alt-rain-wind:before {
+  content: "\f027";
+  color: #66FF00;
+}
+.wi-night-alt-rain:before {
+  content: "\f028";
+  color: #66FF00;
+}
+.wi-night-alt-showers:before {
+  content: "\f029";
+  color: #66FF00;
+}
+.wi-night-alt-snow:before {
+  content: "\f02a";
+  color: blue;
+}
+.wi-night-alt-sprinkle:before {
+  content: "\f02b";
+  color: #66FF00;
+}
+.wi-night-alt-storm-showers:before {
+  content: "\f02c";
+  color: #66FF00;
+}
+.wi-night-alt-thunderstorm:before {
+  content: "\f02d";
+  color: red;
+}
+.wi-night-clear:before {
+  content: "\f02e";
+}
+.wi-night-cloudy-gusts:before {
+  content: "\f02f";
+}
+.wi-night-cloudy-windy:before {
+  content: "\f030";
+}
+.wi-night-cloudy:before {
+  content: "\f031";
+}
+.wi-night-hail:before {
+  content: "\f032";
+  color: red;
+}
+.wi-night-lightning:before {
+  content: "\f033";
+  color: red;
+}
+.wi-night-rain-mix:before {
+  content: "\f034";
+  color: #66FF00;
+}
+.wi-night-rain-wind:before {
+  content: "\f035";
+  color: #66FF00;
+}
+.wi-night-rain:before {
+  content: "\f036";
+  color: #66FF00;
+}
+.wi-night-showers:before {
+  content: "\f037";
+  color: #66FF00;
+}
+.wi-night-snow:before {
+  content: "\f038";
+  color: blue;
+}
+.wi-night-sprinkle:before {
+  content: "\f039";
+  color: #66FF00
+}
+.wi-night-storm-showers:before {
+  content: "\f03a";
+  color: #66FF00;
+}
+.wi-night-thunderstorm:before {
+  content: "\f03b";
+  color: red
+}
+.wi-celcius:before {
+  content: "\f03c";
+}
+.wi-cloud-down:before {
+  content: "\f03d";
+}
+.wi-cloud-refresh:before {
+  content: "\f03e";
+}
+.wi-cloud-up:before {
+  content: "\f040";
+}
+.wi-cloud:before {
+  content: "\f041";
+}
+.wi-degrees:before {
+  content: "\f042";
+}
+.wi-down-left:before {
+  content: "\f043";
+}
+.wi-down:before {
+  content: "\f044";
+}
+.wi-fahrenheit:before {
+  content: "\f045";
+}
+.wi-horizon-alt:before {
+  content: "\f046";
+}
+.wi-horizon:before {
+  content: "\f047";
+}
+.wi-left:before {
+  content: "\f048";
+}
+.wi-lightning:before {
+  content: "\f016";
+  color: red;
+}
+.wi-night-fog:before {
+  content: "\f04a";
+}
+.wi-refresh-alt:before {
+  content: "\f04b";
+}
+.wi-refresh:before {
+  content: "\f04c";
+}
+.wi-right:before {
+  content: "\f04d";
+}
+.wi-sprinkles:before {
+  content: "\f04e";
+  color: #66FF00;
+}
+.wi-strong-wind:before {
+  content: "\f050";
+}
+.wi-sunrise:before {
+  content: "\f051";
+  color: #FFCC00;
+}
+.wi-sunset:before {
+  content: "\f052";
+  color: orange;
+}
+.wi-thermometer-exterior:before {
+  content: "\f053";
+}
+.wi-thermometer-internal:before {
+  content: "\f054";
+}
+.wi-thermometer:before {
+  content: "\f055";
+}
+.wi-tornado:before {
+  content: "\f056";
+  color: red;
+}
+.wi-up-right:before {
+  content: "\f057";
+}
+.wi-up:before {
+  content: "\f058";
+}
+.wi-wind-east:before {
+  content: "\f059";
+}
+.wi-wind-north-east:before {
+  content: "\f05a";
+}
+.wi-wind-north-west:before {
+  content: "\f05b";
+}
+.wi-wind-north:before {
+  content: "\f05c";
+}
+.wi-wind-south-east:before {
+  content: "\f05d";
+}
+.wi-wind-south-west:before {
+  content: "\f05e";
+}
+.wi-wind-south:before {
+  content: "\f060";
+}
+.wi-wind-west:before {
+  content: "\f061";
+}
