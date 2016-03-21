@@ -9,11 +9,11 @@ var config = {
         //change weather params here:
         //units: metric or imperial
         params: {
-            q: 'corvallis,us',
+            q: 'phoenix,us',
             units: 'imperial',
             // if you want a different lang for the weather that what is set above, change it here
             lang: 'en',
-            APPID: '062f7156ecc9dd5a58449d34362a5e16'
+            APPID: '<API Goes Here>'
         }
     },
     compliments: {
@@ -50,11 +50,11 @@ var config = {
 		// },
 		{
 			symbol: 'mars',
-			url: 'https://calendar.google.com/calendar/ical/jimmy.beck%40cru.org/private-55dbdf27ab3e5b70082e143350c28376/basic.ics',
+			url: 'iCal private address',
 		},
 		{
 			symbol: 'venus',
-			url: 'https://calendar.google.com/calendar/ical/lauren.beck%40cru.org/private-32bd5f27b7c07710c9960b803368cd99/basic.ics',
+			url: 'iCal private address',
 		},
 		// {
 			// symbol: 'venus-mars',
